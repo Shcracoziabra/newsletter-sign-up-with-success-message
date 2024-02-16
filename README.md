@@ -48,7 +48,7 @@ Users should be able to:
 
 ### What I learned
 
-- [*] In this challenge I learned to create slide animation with CSS
+In this challenge I learned to create slide animation with CSS
 ```css
 .overlay {
     transition: all .3s ease-in
@@ -65,25 +65,25 @@ Users should be able to:
 }
 ```
 
-- [*] Used `RegExp` pattern to validate an e-mail input
+Used `RegExp` pattern to validate an e-mail input
 ```js
 const pattern = /^[a-z0-9-_]+(?:\.?[a-z0-9-_]+)*@[a-z]+\.[a-z]+$/;
 ```
 
-- [*] Made gradient background for buttons
+Made gradient background for buttons
 ```css
 button:focus {
     background-image: linear-gradient(to right, var(--pink) 5%, var(--tomato) 95%);
 }
 ```
 
-- [*] Changed the element's order to fit its position in the mobile design
+Changed the element's order to fit its position in the mobile design
 ```css
 .form__illustration {
         order: 0;
 }
 ```
-- [*] Added show/hide footer behavior on page scroll
+Added show/hide footer behavior on page scroll
 
 ## Author
 
