@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.querySelector('.form');
     const footer = document.querySelector('.footer');
     const emailInput = document.querySelector('#email');
-    const overlay = document.querySelector('.overlay')
+    const overlay = document.querySelector('.overlay');
+    const dialogUserEmail = overlay.querySelector('.dialog__user-email');
     const dialogBtn = overlay.querySelector('.dialog button');
     const formatEmailWarning = form.querySelector('.form__format-msg');
 
@@ -56,6 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
             overlay.scrollIntoView('start');
             document.body.style.overflow = 'hidden';
 
+            dialogUserEmail.innerText = email;
             dialogBtn.focus();
 
         }
