@@ -11,47 +11,49 @@
 
 </head>
 <body>
-
-  <form class="form">
-    <div class="form__illustration">
-    </div>
-    <div class="form__content">
-      <h2>Stay updated!</h2>
-      <p>Join 60,000+ product managers receiving monthly updates on:</p>
-      <ul class="form__list">
-        <li class="form__list-item">Product discovery and building what matters</li>
-        <li class="form__list-item">Measuring to ensure updates are a success</li>
-        <li class="form__list-item">And <span>much</span> more!</li>
-      </ul>
-      <label class="form__label" for="email">Email address<span class="form__format-msg form__format-msg_hidden">Valid email required</span></label>
-      
-      <input class="form__input" type="text" name="email" id="email" placeholder="email@company.com">
-      <button type="submit">Subscribe to monthly newsletter</button>
-    </div>
-    
-
-  </form>
-
-  <footer class="footer footer_hidden">
-    <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </p>
-    <p>Coded by <a href="https://www.frontendmentor.io/profile/Shcracoziabra" target="_blank">Shcracoziabra</a>.</p>
-  </footer>
-
-  <div class="overlay overlay_hidden">
-    <div class="dialog" role="dialog" aria-labelledby="" aria-describedby="">
-      <div class="dialog__icon-wrapper">
-        <img src="./assets/images/icon-success.svg" alt="success icon">
+  <main>
+    <form class="form">
+      <div class="form__illustration">
       </div>
-      <h2 class="dialog__title" id="dialog__title">Thanks for subscribing!</h2>
-      <p class="dialog__description" id="dialog__description">
-        A confirmation email has been sent to <span class="dialog__user-email"></span>.
-        Please open it and click the button inside to confirm your subscription.
-      </p>
+      <div class="form__content">
+        <h1 class="form__title">Stay updated!</h1>
+        <h2 class="form__subtitle">Join 60,000+ product managers receiving monthly updates on:</h2>
+        <ul class="form__list">
+          <li class="form__list-item">Product discovery and building what matters</li>
+          <li class="form__list-item">Measuring to ensure updates are a success</li>
+          <li class="form__list-item">And <span>much</span> more!</li>
+        </ul>
+        <label class="form__label" for="email">Email address<span class="form__format-msg form__format-msg_hidden">Valid email required</span></label>
+        
+        <input class="form__input" type="text" name="email" id="email" placeholder="email@company.com">
+        <button type="submit">Subscribe to monthly newsletter</button>
+      </div>
       
-      <button type="button">Dismiss message</button>
+  
+    </form>
+  
+    <footer class="footer footer_hidden">
+      <p>Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. </p>
+      <p>Coded by <a href="https://www.frontendmentor.io/profile/Shcracoziabra" target="_blank">Shcracoziabra</a>.</p>
+    </footer>
+  
+    <div class="overlay overlay_hidden">
+      <div class="dialog" role="dialog" aria-labelledby="dialog__title" aria-describedby="dialog__description">
+        <div class="dialog__icon-wrapper">
+          <img src="./assets/images/icon-success.svg" alt="success icon">
+        </div>
+        <h2 class="dialog__title" id="dialog__title">Thanks for subscribing!</h2>
+        <p class="dialog__description" id="dialog__description">
+          A confirmation email has been sent to <span class="dialog__user-email"></span>.
+          Please open it and click the button inside to confirm your subscription.
+        </p>
+        
+        <button type="button">Dismiss message</button>
+      </div>
+     
     </div>
-   
-  </div>
+  </main>
+  
   <script src="./index.js"></script>
 </body>
 </html>
